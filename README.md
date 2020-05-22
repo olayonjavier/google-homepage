@@ -1,0 +1,1 @@
+A clone of the google search page to practice basic html/css skills as well as using firefox devtools.
