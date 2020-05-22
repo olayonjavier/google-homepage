@@ -1,11 +1,12 @@
 .logo {
-    
+    display: block;
+    margin: auto;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 li {
@@ -25,16 +26,7 @@ a {
      "footer";
 }
 
-@media (min-width: 300px){
-    .container {
-        grid-template-areas: 
-        "header"
-        "content" 
-        "footer";
-    }
-}
-
-.nav {
+nav {
     grid-area: header;
 }
 
@@ -44,4 +36,13 @@ a {
 
 .right-link {
     float: right;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer li a {
+    display: inline;
+    padding: 15px 12 8px;
 }
